@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="{{ language }}">
+<head>
+    <meta charset="utf-8">
+    <title>{{ headline }}</title>
+    <meta name="keywords" content="blackout21, 321EUOfflineDay, blackout, article11, article13, saveyourinternet">
+    <meta property="og:title" content="{{ headline }}">
+    <meta property="og:description" content="{{ intro }}">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="#Blackout21">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-align: center;
+            align-items: center;
+            background: black url(wallpaper.jpg) center center fixed no-repeat;
+            background-size: cover;
+            font: normal 18px/1.4em "Helvetica Neue", "Roboto", Helvetica, Arial, sans-serif;
+        }
+
+        h1 {
+            line-height: 1.4em;
+        }
+
+        main {
+            width: 100%;
+            max-width: 950px;
+            margin: auto;
+            color: #fff;
+            padding: 10px;
+        }
+
+        main :first-child {
+            margin-top: 0;
+            padding-top: 0;
+        }
+
+        main :last-child {
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        a, a:link {
+            color: #fff;
+        }
+
+        li {
+            margin-top: 5px;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            padding-left: 5px;
+            font-size: .5em;
+            opacity: .45;
+            position: fixed;
+            display: inline-block;
+            bottom: 0;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+<main>
+    <h1>{{ headline }}</h1>
+    <p>
+        <em>{{ salutation }}</em>
+    </p>
+    <p>
+        {{ intro }}
+    </p>
+    <p>
+        {{ reasons }}
+    </p>
+    <p>
+        {{ request }}
+    </p>
+    <ul>
+        <li><a href="{{ contact_parliament_link }}">{{ request_1 }}</a></li>
+        <li><a href="{{ demo_link }}">{{ request_2 }}</a></li>
+        <li><a href="{{ election_link }}">{{ request_3 }}</a></li>
+    </ul>
+    <p>
+        {{ thank_you }}
+    </p>
+    <footer>
+        {{ wallpaper }}: CC-BY Dennis Deutschkämer
+    </footer>
+</main>
+</body>
+</html>
