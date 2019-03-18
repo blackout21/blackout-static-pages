@@ -1,0 +1,22 @@
+{
+    "name": "blackout21/blackout-static-pages",
+    "description": "Static pages for the blackout on March, 21st",
+    "keywords": ["blackout21", "321EUOfflineDay", "SaveYourInternet", "Article13", "Article11"],
+    "type": "project",
+    "license": "CC-BY-SA-3.0",
+    "authors": [
+        {
+            "name": "Timon F.",
+            "email": "dev@timonf.de"
+        },
+        {
+            "name": "Wikipedia",
+            "homepage": "https://de.wikipedia.org/w/index.php?title=Wikipedia:Meinungsbilder/Protest_gegen_EU-Urheberrechtsreform"
+        }
+    ],
+    "require-dev": {
+        "ext-json": "*",
+        "twig/twig": "~2",
+        "symfony/finder": "~4"
+    }
+}
